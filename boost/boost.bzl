@@ -10,7 +10,7 @@ hdrs_patterns = [
     "boost/%s/**/*.hpp",
     "boost/%s/**/*.ipp",
     "boost/%s/**/*.h",
-    "libs/%s/src/*.ipp",
+    "libs/%s/src/**/*.ipp",
 ]
 
 srcs_patterns = [
