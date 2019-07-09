@@ -14,8 +14,8 @@ hdrs_patterns = [
 ]
 
 srcs_patterns = [
-    "libs/%s/src/*.cpp",
-    "libs/%s/src/*.hpp",
+    "libs/%s/src/**/*.cpp",
+    "libs/%s/src/**/*.hpp",
 ]
 
 # Building boost results in many warnings for unused values. Downstream users
